@@ -8,6 +8,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
 
+
+
 /**
  * @author wengyinbing
  * @data 2021/3/16 16:14
@@ -55,6 +57,8 @@ public class Server extends  Thread{
         }
         catch(Exception e){
             e.printStackTrace();
+            //
+            //Math.round(1);
         }
     }
 }
