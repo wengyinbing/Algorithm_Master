@@ -3,6 +3,7 @@ package collections;
 import jdk.swing.interop.SwingInterOpUtils;
 import org.junit.Test;
 
+import javax.swing.*;
 import java.security.cert.CollectionCertStoreParameters;
 import java.util.*;
 import java.util.zip.CheckedOutputStream;
@@ -149,5 +150,14 @@ public class test {
              System.out.println(s);
          }
          //Map.Entry<Integer,String> e = m.entrySet();
+     }
+
+     @Test
+    public void t10(){
+         Stack<Integer> s = new Stack<Integer>();
+         s.push(1);
+         s.pop();
+         System.out.println(s);
+
      }
 }

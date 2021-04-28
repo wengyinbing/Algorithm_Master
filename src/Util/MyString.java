@@ -56,9 +56,11 @@ public class MyString {
     public void t3(){
        //StringBuffer 线程安全的可变对象 StringBuilder线程不安全的可变对象 直接在对象上进行操作
         StringBuffer sb = new StringBuffer(10);
+        char[] ch = new char[10];
         System.out.println(sb.capacity());
         System.out.println(sb.length());
         sb.append("Hello,wengyinbing!");
+        //sb.append
         System.out.println(sb);
         System.out.println(sb.capacity());
         System.out.println(sb.length());
